@@ -4,6 +4,7 @@ describe("Intern", () => {
   describe("init", () => {
     it('should require a school', () => {
       const intern = new Intern('Billy', 2, 'b@email.com', 'Xavier Institute');
+      // const intern = new Intern('Xavier Institute');
 
       expect('school' in intern).toBe(true);
     });
